@@ -31,7 +31,7 @@ module.exports = config;
 // swagger editor //
 
 config.swagger = {
-  fileName: 'api/swagger/swagger.yaml',
+  fileName: 'api/swagger/swagger.json',
   editorDir: path.dirname(require.resolve('swagger-editor')),
   editorConfig: {
     analytics: { google: { id: null } },
